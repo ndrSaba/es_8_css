@@ -1,25 +1,28 @@
 body{
     display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+    margin: 0;
 }
 
 #green {
-    order: 2;
+    order: 1;
 }
 
-#yellow {
-    order: 0;
+#yellow {    
+    order: -1;
 }
 
 #orange {
+    flex-grow: 1;
     order: 3;
-    width: 33%;
 }
 
-#red {
-    order: 1,
+#red {    
+    order: 0;
 }
 
 #blue {
-    order: 4;
+    order: 3;
 }
 
